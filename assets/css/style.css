@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f2f2f2;
+  background-color: #82827f;
 }
 
 header {
@@ -20,19 +20,12 @@ header {
   text-align: center;
 }
 
-#about h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
 #about p {
-  font-size: 18px;
   line-height: 1.5;
 }
 
 nav ul {
   display: flex;
-  justify-content: flex-end;
   list-style: none;
   margin-top: 15px;
   margin-right: 10px;
@@ -52,7 +45,6 @@ nav a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 35px 0;
 }
 
 .profile-picture {
@@ -65,19 +57,13 @@ nav a {
 
 .social-media {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
 }
 
 .social-media a {
-  display: inline-block;
-  margin: 0 10px;
-  padding: 10px 20px;
   background-color: #333;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  margin-bottom: 10px;
 }
 
 .social-media a:hover {
@@ -88,6 +74,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 .projects-container {
@@ -95,13 +82,11 @@ main {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  
 }
 
 .project {
-  max-width: 300px;
-  margin: 20px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 20px;
   transition: box-shadow 0.3s ease-in-out;
@@ -121,7 +106,6 @@ main {
 }
 
 .project p {
-  margin-top: 10px;
   font-size: 16px;
 }
 
@@ -150,23 +134,6 @@ footer {
 
 #contact {
   background-color: #fff;
-  text-align: center;
-  padding: 35px;
-}
-#contact h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-#contact p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-#text-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 36px;
 }
 
 body {
@@ -191,46 +158,70 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.intro {
+  padding: 20px;
+}
+
+.social-media {
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.social-media a {
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.project {
+  margin: 10px;
+}
+#contact {
+  padding: 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 28px;
+}
+
 /* Small screens (up to 768px) */
 @media only screen and (max-width: 768px) {
-  nav {
-    flex-direction: column;
-  }
 
   nav li {
     margin: 10px 0;
     padding-top: 0;
   }
 
-  .intro {
-    text-align: center;
-  }
-
-  .social-media {
-    flex-wrap: wrap;
-  }
-
   .social-media a {
     margin-right: 0;
-    margin-bottom: 20px;
+    padding: 10px;
   }
 
   .project {
-    max-width: 100%;
-    margin: 20px 0;
+    margin: 20px 0px;
+  }
+  .projects-container {
+    flex-direction: column;
+  }
+  .project a {
+    display: block;
   }
 
-  #contact {
-    padding: 20px;
-  }
-
-  #contact h2 {
+  #about h2 {
     font-size: 28px;
   }
 
-  #contact p {
-    font-size: 16px;
+  nav a {
+    padding: 10px;
   }
+
 }
 
 /* Medium screens (between 768px and 1200px) */
@@ -243,35 +234,33 @@ p {
   .project {
     max-width: 250px;
   }
+  .projects-container {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #about h2 {
+    font-size: 32px;
+  }
+
+  #about p {
+    font-size: 18px;
+  }
+
+  .project h2 {
+    font-size: 16px;
+  }
 }
 
 /* Large screens (above 1200px) */
 @media only screen and (min-width: 1200px) {
-  nav {
-    justify-content: flex-end;
-  }
 
-  nav li {
-    padding-top: 0;
-  }
-
-  .projects-container {
-    justify-content: flex-start;
-  }
-
-  .project {
-    margin: 20px;
-  }
-
-  #contact {
-    padding: 35px;
-  }
-
-  #contact h2 {
+  #about h2 {
     font-size: 36px;
   }
 
-  #contact p {
-    font-size: 18px;
+  #about p {
+    font-size: 20px;
   }
 }
