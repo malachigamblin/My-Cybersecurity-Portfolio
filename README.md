@@ -11,11 +11,11 @@ This coding project is a hub for me to show off my latest coding projects as a s
 • Flex boxes are used to hold coding projects.
 
 • The UI is clean and straightforward, with a mobile-first design.
- 
+
 ## Screenshots
 
-<img width="1915" alt="Screenshot 2023-03-23 at 5 12 27 PM" src="https://user-images.githubusercontent.com/118701306/227363246-80480437-d992-4603-8e36-df3a8a42ccaa.png">
-<img width="1915" alt="Screenshot 2023-03-23 at 5 12 31 PM" src="https://user-images.githubusercontent.com/118701306/227363453-19cb2c27-b2d8-4493-9477-0be50d5b5a3a.png">
+<img width="1510" alt="Screenshot 2023-05-09 at 9 13 24 PM" src="https://github.com/malachigamblin/My-Portfolio/assets/118701306/2c47fb57-ab36-482f-ae23-5885f1b66254">
+<img width="1510" alt="Screenshot 2023-05-09 at 9 13 32 PM" src="https://github.com/malachigamblin/My-Portfolio/assets/118701306/d15367ec-d996-47df-b50f-d26f66a310b5">
 
 ## Link
 
