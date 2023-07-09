@@ -1,8 +1,8 @@
-# My-Portfolio
+# My-Cybersecurity-Portfolio
 
 ## Description
 
-This coding project is a hub for me to show off my latest coding projects as a student at The Ohio State University Coding Boot Camp.
+This coding project is a hub for me to show off my latest cybersecurity projects.
 
 ## Features
 
@@ -14,12 +14,12 @@ This coding project is a hub for me to show off my latest coding projects as a s
 
 ## Screenshots
 
-<img width="1510" alt="Screenshot 2023-05-09 at 9 13 24 PM" src="https://github.com/malachigamblin/My-Portfolio/assets/118701306/2c47fb57-ab36-482f-ae23-5885f1b66254">
-<img width="1510" alt="Screenshot 2023-05-09 at 9 13 32 PM" src="https://github.com/malachigamblin/My-Portfolio/assets/118701306/d15367ec-d996-47df-b50f-d26f66a310b5">
+<img width="1335" alt="Screenshot 2023-07-09 at 10 34 58 AM" src="https://github.com/malachigamblin/My-Cybersecurity-Portfolio/assets/118701306/3494db6e-8b57-46c5-b832-651b8cca5791">
+<img width="1335" alt="Screenshot 2023-07-09 at 10 35 02 AM" src="https://github.com/malachigamblin/My-Cybersecurity-Portfolio/assets/118701306/8f378e69-1dfe-4041-8acb-70bfc30d469d">
 
 ## Link
 
-Deployed application:https://malachigamblin.github.io/My-Portfolio/
+Deployed application:https://malachigamblin.github.io/My-Cybersecurity-Portfolio/
 
 ## License
 
